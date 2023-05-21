@@ -41,6 +41,8 @@ namespace KlirTechChallenge.Web.Api
 
             services.AddTransient<IProductManager, ProductManager>();
             services.AddTransient<IProductProvider, ProductProvider>();
+            services.AddTransient<IOrderManager, OrderManager>();
+            services.AddTransient<IOrderProvider, OrderProvider>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
