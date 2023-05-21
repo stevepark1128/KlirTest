@@ -31,6 +31,7 @@
     ".NETCoreApp,Version=v3.1": {
       "Klir.TechChallenge.Web.Api/1.0.0": {
         "dependencies": {
+          "Klir.TechChallenge.App": "1.0.0",
           "Microsoft.EntityFrameworkCore.Design": "5.0.4",
           "Microsoft.AspNetCore.Antiforgery": "3.1.0.0",
           "Microsoft.AspNetCore.Authentication.Abstractions": "3.1.0.0",
@@ -504,6 +505,37 @@
             "assemblyVersion": "5.0.0.0",
             "fileVersion": "5.0.220.61120"
           }
+        }
+      },
+      "Klir.TechChallenge.App/1.0.0": {
+        "dependencies": {
+          "Klir.TechChallenge.AppDomain": "1.0.0",
+          "Klir.TechChallenge.Provider": "1.0.0"
+        },
+        "runtime": {
+          "Klir.TechChallenge.App.dll": {}
+        },
+        "compile": {
+          "Klir.TechChallenge.App.dll": {}
+        }
+      },
+      "Klir.TechChallenge.AppDomain/1.0.0": {
+        "runtime": {
+          "Klir.TechChallenge.AppDomain.dll": {}
+        },
+        "compile": {
+          "Klir.TechChallenge.AppDomain.dll": {}
+        }
+      },
+      "Klir.TechChallenge.Provider/1.0.0": {
+        "dependencies": {
+          "Klir.TechChallenge.AppDomain": "1.0.0"
+        },
+        "runtime": {
+          "Klir.TechChallenge.Provider.dll": {}
+        },
+        "compile": {
+          "Klir.TechChallenge.Provider.dll": {}
         }
       },
       "Microsoft.AspNetCore.Antiforgery/3.1.0.0": {
@@ -2338,6 +2370,21 @@
       "sha512": "sha512-uXQEYqav2V3zP6OwkOKtLv+qIi6z3m1hsGyKwXX7ZA7htT4shoVccGxnJ9kVRFPNAsi1ArZTq2oh7WOto6GbkQ==",
       "path": "system.diagnostics.diagnosticsource/5.0.1",
       "hashPath": "system.diagnostics.diagnosticsource.5.0.1.nupkg.sha512"
+    },
+    "Klir.TechChallenge.App/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Klir.TechChallenge.AppDomain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Klir.TechChallenge.Provider/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
     },
     "Microsoft.AspNetCore.Antiforgery/3.1.0.0": {
       "type": "referenceassembly",

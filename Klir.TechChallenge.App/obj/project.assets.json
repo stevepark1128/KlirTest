@@ -11,6 +11,19 @@
         "runtime": {
           "bin/placeholder/Klir.TechChallenge.AppDomain.dll": {}
         }
+      },
+      "Klir.TechChallenge.Provider/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.1",
+        "dependencies": {
+          "Klir.TechChallenge.AppDomain": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Klir.TechChallenge.Provider.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Klir.TechChallenge.Provider.dll": {}
+        }
       }
     }
   },
@@ -19,11 +32,17 @@
       "type": "project",
       "path": "../Klir.TechChallenge.AppDomain/Klir.TechChallenge.AppDomain.csproj",
       "msbuildProject": "../Klir.TechChallenge.AppDomain/Klir.TechChallenge.AppDomain.csproj"
+    },
+    "Klir.TechChallenge.Provider/1.0.0": {
+      "type": "project",
+      "path": "../Klir.TechChallenge.Provider/Klir.TechChallenge.Provider.csproj",
+      "msbuildProject": "../Klir.TechChallenge.Provider/Klir.TechChallenge.Provider.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETStandard,Version=v2.1": [
-      "Klir.TechChallenge.AppDomain >= 1.0.0"
+      "Klir.TechChallenge.AppDomain >= 1.0.0",
+      "Klir.TechChallenge.Provider >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -63,6 +82,9 @@
           "projectReferences": {
             "C:\\Users\\phjs3\\Source\\Repos\\stevepark1128\\KlirTest\\Klir.TechChallenge.AppDomain\\Klir.TechChallenge.AppDomain.csproj": {
               "projectPath": "C:\\Users\\phjs3\\Source\\Repos\\stevepark1128\\KlirTest\\Klir.TechChallenge.AppDomain\\Klir.TechChallenge.AppDomain.csproj"
+            },
+            "C:\\Users\\phjs3\\Source\\Repos\\stevepark1128\\KlirTest\\Klir.TechChallenge.Provider\\Klir.TechChallenge.Provider.csproj": {
+              "projectPath": "C:\\Users\\phjs3\\Source\\Repos\\stevepark1128\\KlirTest\\Klir.TechChallenge.Provider\\Klir.TechChallenge.Provider.csproj"
             }
           }
         }

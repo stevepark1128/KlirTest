@@ -97,3 +97,9 @@ C:\Users\phjs3\Source\Repos\stevepark1128\KlirTest\aspnet-core\Klir.TechChalleng
 C:\Users\phjs3\Source\Repos\stevepark1128\KlirTest\aspnet-core\Klir.TechChallenge.Web.Api\obj\Debug\netcoreapp3.1\Klir.TechChallenge.Web.Api.dll
 C:\Users\phjs3\Source\Repos\stevepark1128\KlirTest\aspnet-core\Klir.TechChallenge.Web.Api\obj\Debug\netcoreapp3.1\Klir.TechChallenge.Web.Api.pdb
 C:\Users\phjs3\Source\Repos\stevepark1128\KlirTest\aspnet-core\Klir.TechChallenge.Web.Api\obj\Debug\netcoreapp3.1\Klir.TechChallenge.Web.Api.genruntimeconfig.cache
+C:\Users\phjs3\Source\Repos\stevepark1128\KlirTest\aspnet-core\Klir.TechChallenge.Web.Api\bin\Debug\netcoreapp3.1\Klir.TechChallenge.App.dll
+C:\Users\phjs3\Source\Repos\stevepark1128\KlirTest\aspnet-core\Klir.TechChallenge.Web.Api\bin\Debug\netcoreapp3.1\Klir.TechChallenge.AppDomain.dll
+C:\Users\phjs3\Source\Repos\stevepark1128\KlirTest\aspnet-core\Klir.TechChallenge.Web.Api\bin\Debug\netcoreapp3.1\Klir.TechChallenge.Provider.dll
+C:\Users\phjs3\Source\Repos\stevepark1128\KlirTest\aspnet-core\Klir.TechChallenge.Web.Api\bin\Debug\netcoreapp3.1\Klir.TechChallenge.App.pdb
+C:\Users\phjs3\Source\Repos\stevepark1128\KlirTest\aspnet-core\Klir.TechChallenge.Web.Api\bin\Debug\netcoreapp3.1\Klir.TechChallenge.AppDomain.pdb
+C:\Users\phjs3\Source\Repos\stevepark1128\KlirTest\aspnet-core\Klir.TechChallenge.Web.Api\bin\Debug\netcoreapp3.1\Klir.TechChallenge.Provider.pdb

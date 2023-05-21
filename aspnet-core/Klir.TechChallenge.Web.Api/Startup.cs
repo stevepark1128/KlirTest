@@ -1,3 +1,5 @@
+using Klir.TechChallenge.App;
+using Klir.TechChallenge.Provider;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Mvc;
@@ -36,6 +38,9 @@ namespace KlirTechChallenge.Web.Api
             });
 
             services.AddControllers();
+
+            services.AddTransient<IProductManager, ProductManager>();
+            services.AddTransient<IProductProvider, ProductProvider>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

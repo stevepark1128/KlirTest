@@ -11,3 +11,5 @@ C:\Users\phjs3\Source\Repos\stevepark1128\KlirTest\Klir.TechChallenge.App\obj\De
 C:\Users\phjs3\Source\Repos\stevepark1128\KlirTest\Klir.TechChallenge.App\bin\Debug\netstandard2.1\Klir.TechChallenge.AppDomain.dll
 C:\Users\phjs3\Source\Repos\stevepark1128\KlirTest\Klir.TechChallenge.App\bin\Debug\netstandard2.1\Klir.TechChallenge.AppDomain.pdb
 C:\Users\phjs3\Source\Repos\stevepark1128\KlirTest\Klir.TechChallenge.App\obj\Debug\netstandard2.1\Klir.TechChallenge.App.csproj.CopyComplete
+C:\Users\phjs3\Source\Repos\stevepark1128\KlirTest\Klir.TechChallenge.App\bin\Debug\netstandard2.1\Klir.TechChallenge.Provider.dll
+C:\Users\phjs3\Source\Repos\stevepark1128\KlirTest\Klir.TechChallenge.App\bin\Debug\netstandard2.1\Klir.TechChallenge.Provider.pdb

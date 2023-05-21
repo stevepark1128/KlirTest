@@ -11,5 +11,9 @@
     </PackageReference>
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\..\Klir.TechChallenge.App\Klir.TechChallenge.App.csproj" />
+  </ItemGroup>
+
 
 </Project>

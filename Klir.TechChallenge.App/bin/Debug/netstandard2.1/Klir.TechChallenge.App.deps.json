@@ -9,7 +9,8 @@
     ".NETStandard,Version=v2.1/": {
       "Klir.TechChallenge.App/1.0.0": {
         "dependencies": {
-          "Klir.TechChallenge.AppDomain": "1.0.0"
+          "Klir.TechChallenge.AppDomain": "1.0.0",
+          "Klir.TechChallenge.Provider": "1.0.0"
         },
         "runtime": {
           "Klir.TechChallenge.App.dll": {}
@@ -18,6 +19,14 @@
       "Klir.TechChallenge.AppDomain/1.0.0": {
         "runtime": {
           "Klir.TechChallenge.AppDomain.dll": {}
+        }
+      },
+      "Klir.TechChallenge.Provider/1.0.0": {
+        "dependencies": {
+          "Klir.TechChallenge.AppDomain": "1.0.0"
+        },
+        "runtime": {
+          "Klir.TechChallenge.Provider.dll": {}
         }
       }
     }
@@ -29,6 +38,11 @@
       "sha512": ""
     },
     "Klir.TechChallenge.AppDomain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Klir.TechChallenge.Provider/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
