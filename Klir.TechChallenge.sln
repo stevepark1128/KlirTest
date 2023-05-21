@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.31112.23
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32328.378
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "backend", "backend", "{F332D047-B9A7-4B85-8359-9328589BED29}"
 EndProject
@@ -14,6 +14,12 @@ EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Klir.TechChallenge.Web.Api", "aspnet-core\Klir.TechChallenge.Web.Api\Klir.TechChallenge.Web.Api.csproj", "{82716132-B9B0-4629-9D72-6D5E42F3EEDD}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Klir.TechChallenge.Tests", "aspnet-core\Klir.TechChallenge.Tests\Klir.TechChallenge.Tests.csproj", "{2698738B-6626-4968-814F-6B22068ACAEF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Klir.TechChallenge.App", "Klir.TechChallenge.App\Klir.TechChallenge.App.csproj", "{F9951DD4-27BB-4F2B-9BC3-52429BDF89FE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Klir.TechChallenge.AppDomain", "Klir.TechChallenge.AppDomain\Klir.TechChallenge.AppDomain.csproj", "{0295C183-3BBD-4865-B5C0-CBA9342F4C1F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Klir.TechChallenge.Provider", "Klir.TechChallenge.Provider\Klir.TechChallenge.Provider.csproj", "{48827323-FD1F-4205-A975-5D2FB093D60D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -32,6 +38,18 @@ Global
 		{2698738B-6626-4968-814F-6B22068ACAEF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2698738B-6626-4968-814F-6B22068ACAEF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2698738B-6626-4968-814F-6B22068ACAEF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F9951DD4-27BB-4F2B-9BC3-52429BDF89FE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F9951DD4-27BB-4F2B-9BC3-52429BDF89FE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F9951DD4-27BB-4F2B-9BC3-52429BDF89FE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F9951DD4-27BB-4F2B-9BC3-52429BDF89FE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0295C183-3BBD-4865-B5C0-CBA9342F4C1F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0295C183-3BBD-4865-B5C0-CBA9342F4C1F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0295C183-3BBD-4865-B5C0-CBA9342F4C1F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0295C183-3BBD-4865-B5C0-CBA9342F4C1F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{48827323-FD1F-4205-A975-5D2FB093D60D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{48827323-FD1F-4205-A975-5D2FB093D60D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{48827323-FD1F-4205-A975-5D2FB093D60D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{48827323-FD1F-4205-A975-5D2FB093D60D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -40,6 +58,9 @@ Global
 		{7C53E485-14DD-4017-A992-193A405530AB} = {C51C41D1-42C6-4690-9847-B372BAD06101}
 		{82716132-B9B0-4629-9D72-6D5E42F3EEDD} = {F332D047-B9A7-4B85-8359-9328589BED29}
 		{2698738B-6626-4968-814F-6B22068ACAEF} = {999D48DF-22BC-40B8-A8C4-A9B5760B77AC}
+		{F9951DD4-27BB-4F2B-9BC3-52429BDF89FE} = {F332D047-B9A7-4B85-8359-9328589BED29}
+		{0295C183-3BBD-4865-B5C0-CBA9342F4C1F} = {F332D047-B9A7-4B85-8359-9328589BED29}
+		{48827323-FD1F-4205-A975-5D2FB093D60D} = {F332D047-B9A7-4B85-8359-9328589BED29}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {B22C9792-C11E-4F83-91D8-5ACFDDC0FC5E}

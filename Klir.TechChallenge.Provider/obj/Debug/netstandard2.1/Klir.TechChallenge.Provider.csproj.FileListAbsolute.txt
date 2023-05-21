@@ -1,0 +1,13 @@
+C:\Users\phjs3\Source\Repos\stevepark1128\KlirTest\Klir.TechChallenge.Provider\obj\Debug\netstandard2.1\Klir.TechChallenge.Provider.csproj.AssemblyReference.cache
+C:\Users\phjs3\Source\Repos\stevepark1128\KlirTest\Klir.TechChallenge.Provider\obj\Debug\netstandard2.1\Klir.TechChallenge.Provider.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\phjs3\Source\Repos\stevepark1128\KlirTest\Klir.TechChallenge.Provider\obj\Debug\netstandard2.1\Klir.TechChallenge.Provider.AssemblyInfoInputs.cache
+C:\Users\phjs3\Source\Repos\stevepark1128\KlirTest\Klir.TechChallenge.Provider\obj\Debug\netstandard2.1\Klir.TechChallenge.Provider.AssemblyInfo.cs
+C:\Users\phjs3\Source\Repos\stevepark1128\KlirTest\Klir.TechChallenge.Provider\obj\Debug\netstandard2.1\Klir.TechChallenge.Provider.csproj.CoreCompileInputs.cache
+C:\Users\phjs3\Source\Repos\stevepark1128\KlirTest\Klir.TechChallenge.Provider\bin\Debug\netstandard2.1\Klir.TechChallenge.Provider.deps.json
+C:\Users\phjs3\Source\Repos\stevepark1128\KlirTest\Klir.TechChallenge.Provider\bin\Debug\netstandard2.1\Klir.TechChallenge.Provider.dll
+C:\Users\phjs3\Source\Repos\stevepark1128\KlirTest\Klir.TechChallenge.Provider\bin\Debug\netstandard2.1\Klir.TechChallenge.Provider.pdb
+C:\Users\phjs3\Source\Repos\stevepark1128\KlirTest\Klir.TechChallenge.Provider\bin\Debug\netstandard2.1\Klir.TechChallenge.AppDomain.dll
+C:\Users\phjs3\Source\Repos\stevepark1128\KlirTest\Klir.TechChallenge.Provider\bin\Debug\netstandard2.1\Klir.TechChallenge.AppDomain.pdb
+C:\Users\phjs3\Source\Repos\stevepark1128\KlirTest\Klir.TechChallenge.Provider\obj\Debug\netstandard2.1\Klir.TechChallenge.Provider.csproj.CopyComplete
+C:\Users\phjs3\Source\Repos\stevepark1128\KlirTest\Klir.TechChallenge.Provider\obj\Debug\netstandard2.1\Klir.TechChallenge.Provider.dll
+C:\Users\phjs3\Source\Repos\stevepark1128\KlirTest\Klir.TechChallenge.Provider\obj\Debug\netstandard2.1\Klir.TechChallenge.Provider.pdb

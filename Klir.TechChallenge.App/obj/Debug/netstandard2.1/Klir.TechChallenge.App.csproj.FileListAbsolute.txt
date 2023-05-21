@@ -1,0 +1,13 @@
+C:\Users\phjs3\Source\Repos\stevepark1128\KlirTest\Klir.TechChallenge.App\bin\Debug\netstandard2.1\Klir.TechChallenge.App.deps.json
+C:\Users\phjs3\Source\Repos\stevepark1128\KlirTest\Klir.TechChallenge.App\bin\Debug\netstandard2.1\Klir.TechChallenge.App.dll
+C:\Users\phjs3\Source\Repos\stevepark1128\KlirTest\Klir.TechChallenge.App\bin\Debug\netstandard2.1\Klir.TechChallenge.App.pdb
+C:\Users\phjs3\Source\Repos\stevepark1128\KlirTest\Klir.TechChallenge.App\obj\Debug\netstandard2.1\Klir.TechChallenge.App.csproj.AssemblyReference.cache
+C:\Users\phjs3\Source\Repos\stevepark1128\KlirTest\Klir.TechChallenge.App\obj\Debug\netstandard2.1\Klir.TechChallenge.App.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\phjs3\Source\Repos\stevepark1128\KlirTest\Klir.TechChallenge.App\obj\Debug\netstandard2.1\Klir.TechChallenge.App.AssemblyInfoInputs.cache
+C:\Users\phjs3\Source\Repos\stevepark1128\KlirTest\Klir.TechChallenge.App\obj\Debug\netstandard2.1\Klir.TechChallenge.App.AssemblyInfo.cs
+C:\Users\phjs3\Source\Repos\stevepark1128\KlirTest\Klir.TechChallenge.App\obj\Debug\netstandard2.1\Klir.TechChallenge.App.csproj.CoreCompileInputs.cache
+C:\Users\phjs3\Source\Repos\stevepark1128\KlirTest\Klir.TechChallenge.App\obj\Debug\netstandard2.1\Klir.TechChallenge.App.dll
+C:\Users\phjs3\Source\Repos\stevepark1128\KlirTest\Klir.TechChallenge.App\obj\Debug\netstandard2.1\Klir.TechChallenge.App.pdb
+C:\Users\phjs3\Source\Repos\stevepark1128\KlirTest\Klir.TechChallenge.App\bin\Debug\netstandard2.1\Klir.TechChallenge.AppDomain.dll
+C:\Users\phjs3\Source\Repos\stevepark1128\KlirTest\Klir.TechChallenge.App\bin\Debug\netstandard2.1\Klir.TechChallenge.AppDomain.pdb
+C:\Users\phjs3\Source\Repos\stevepark1128\KlirTest\Klir.TechChallenge.App\obj\Debug\netstandard2.1\Klir.TechChallenge.App.csproj.CopyComplete

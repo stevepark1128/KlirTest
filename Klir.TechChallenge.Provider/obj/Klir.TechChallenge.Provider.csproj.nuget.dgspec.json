@@ -1,0 +1,132 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\phjs3\\Source\\Repos\\stevepark1128\\KlirTest\\Klir.TechChallenge.Provider\\Klir.TechChallenge.Provider.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\phjs3\\Source\\Repos\\stevepark1128\\KlirTest\\Klir.TechChallenge.AppDomain\\Klir.TechChallenge.AppDomain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\phjs3\\Source\\Repos\\stevepark1128\\KlirTest\\Klir.TechChallenge.AppDomain\\Klir.TechChallenge.AppDomain.csproj",
+        "projectName": "Klir.TechChallenge.AppDomain",
+        "projectPath": "C:\\Users\\phjs3\\Source\\Repos\\stevepark1128\\KlirTest\\Klir.TechChallenge.AppDomain\\Klir.TechChallenge.AppDomain.csproj",
+        "packagesPath": "C:\\Users\\phjs3\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\phjs3\\Source\\Repos\\stevepark1128\\KlirTest\\Klir.TechChallenge.AppDomain\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\phjs3\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://pkgs.dev.azure.com/BibleStudyFellowship/2adaec07-fab7-4dfe-90dd-2dc08f05edcd/_packaging/MCA_Donations/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "NETStandard.Library": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.203\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\phjs3\\Source\\Repos\\stevepark1128\\KlirTest\\Klir.TechChallenge.Provider\\Klir.TechChallenge.Provider.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\phjs3\\Source\\Repos\\stevepark1128\\KlirTest\\Klir.TechChallenge.Provider\\Klir.TechChallenge.Provider.csproj",
+        "projectName": "Klir.TechChallenge.Provider",
+        "projectPath": "C:\\Users\\phjs3\\Source\\Repos\\stevepark1128\\KlirTest\\Klir.TechChallenge.Provider\\Klir.TechChallenge.Provider.csproj",
+        "packagesPath": "C:\\Users\\phjs3\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\phjs3\\Source\\Repos\\stevepark1128\\KlirTest\\Klir.TechChallenge.Provider\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\phjs3\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://pkgs.dev.azure.com/BibleStudyFellowship/2adaec07-fab7-4dfe-90dd-2dc08f05edcd/_packaging/MCA_Donations/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {
+              "C:\\Users\\phjs3\\Source\\Repos\\stevepark1128\\KlirTest\\Klir.TechChallenge.AppDomain\\Klir.TechChallenge.AppDomain.csproj": {
+                "projectPath": "C:\\Users\\phjs3\\Source\\Repos\\stevepark1128\\KlirTest\\Klir.TechChallenge.AppDomain\\Klir.TechChallenge.AppDomain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "NETStandard.Library": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.203\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
