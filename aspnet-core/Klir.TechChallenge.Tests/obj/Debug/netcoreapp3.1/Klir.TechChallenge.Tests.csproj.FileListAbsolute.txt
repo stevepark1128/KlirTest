@@ -191,3 +191,9 @@ C:\Users\phjs3\Source\Repos\stevepark1128\KlirTest\aspnet-core\Klir.TechChalleng
 C:\Users\phjs3\Source\Repos\stevepark1128\KlirTest\aspnet-core\Klir.TechChallenge.Tests\obj\Debug\netcoreapp3.1\Klir.TechChallenge.Tests.dll
 C:\Users\phjs3\Source\Repos\stevepark1128\KlirTest\aspnet-core\Klir.TechChallenge.Tests\obj\Debug\netcoreapp3.1\Klir.TechChallenge.Tests.pdb
 C:\Users\phjs3\Source\Repos\stevepark1128\KlirTest\aspnet-core\Klir.TechChallenge.Tests\obj\Debug\netcoreapp3.1\Klir.TechChallenge.Tests.genruntimeconfig.cache
+C:\Users\phjs3\Source\Repos\stevepark1128\KlirTest\aspnet-core\Klir.TechChallenge.Tests\bin\Debug\netcoreapp3.1\Klir.TechChallenge.App.dll
+C:\Users\phjs3\Source\Repos\stevepark1128\KlirTest\aspnet-core\Klir.TechChallenge.Tests\bin\Debug\netcoreapp3.1\Klir.TechChallenge.AppDomain.dll
+C:\Users\phjs3\Source\Repos\stevepark1128\KlirTest\aspnet-core\Klir.TechChallenge.Tests\bin\Debug\netcoreapp3.1\Klir.TechChallenge.Provider.dll
+C:\Users\phjs3\Source\Repos\stevepark1128\KlirTest\aspnet-core\Klir.TechChallenge.Tests\bin\Debug\netcoreapp3.1\Klir.TechChallenge.App.pdb
+C:\Users\phjs3\Source\Repos\stevepark1128\KlirTest\aspnet-core\Klir.TechChallenge.Tests\bin\Debug\netcoreapp3.1\Klir.TechChallenge.AppDomain.pdb
+C:\Users\phjs3\Source\Repos\stevepark1128\KlirTest\aspnet-core\Klir.TechChallenge.Tests\bin\Debug\netcoreapp3.1\Klir.TechChallenge.Provider.pdb
