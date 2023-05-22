@@ -69,6 +69,7 @@ export class OrderComponent implements AfterViewInit, OnInit {
       this.checkoutOrders = x;
       var total = 0;
       this.checkoutOrders.forEach(x=> total += x.total);
+      //Adding total row to checkout table
       this.checkoutOrders.push({name: 'Total', price: '', total: total, promotion: ''})
       this.dataSourceCheckout = new MatTableDataSource(this.checkoutOrders);
     });
