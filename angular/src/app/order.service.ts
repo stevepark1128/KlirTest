@@ -8,6 +8,15 @@ import { of } from 'rxjs';
   providedIn: 'root'
 })
 export class OrderService {
+
+  httpOptions = {
+    headers: new HttpHeaders({
+      'Content-Type': 'application/json',
+      'Access-Control-Allow-Headers': 'Content-Type',
+      'Access-Control-Allow-Methods': 'POST',
+      "Access-Control-Allow-Origin": "*"
+    })
+  };
   
   constructor(private httpClient: HttpClient) { }
 
@@ -15,4 +24,7 @@ export class OrderService {
     return this.httpClient.get<Product[]>(`http://localhost:5000/api/Product/ProductList`);
   }
 
+  checkoutOrder(products: Product[]) {
+    return this.httpClient.post<Order[]>(`http://localhost:5000/api/Order/OrderCheckoutList`, products, this.httpOptions);
+  }
 }

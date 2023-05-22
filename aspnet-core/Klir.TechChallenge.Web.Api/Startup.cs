@@ -30,11 +30,16 @@ namespace KlirTechChallenge.Web.Api
         {
             services.AddCors(options =>
             {
-                options.AddPolicy(name: AllowSpecificOrigins,
-                                  builder =>
-                                  {
-                                      builder.WithOrigins("http://localhost:4200");
-                                  });
+                options.AddDefaultPolicy(
+                        builder =>
+                        {
+                            builder.AllowAnyOrigin().AllowAnyHeader();
+                        });
+                //options.AddPolicy(name: AllowSpecificOrigins,
+                //                  builder =>
+                //                  {
+                //                      builder.WithOrigins("http://localhost:4200");
+                //                  });
             });
 
             services.AddControllers();
@@ -55,7 +60,10 @@ namespace KlirTechChallenge.Web.Api
 
             app.UseRouting();
 
-            app.UseCors(AllowSpecificOrigins);
+            //app.UseCors(AllowSpecificOrigins);
+            app.UseCors(
+               options => options.AllowAnyOrigin().AllowAnyMethod().AllowAnyHeader()
+               );
 
             app.UseAuthorization();
 

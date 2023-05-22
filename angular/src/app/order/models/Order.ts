@@ -1,9 +1,7 @@
-import { Product } from "./Product";
-
 export interface Order {
-    productid:number;
+    productid?:number;
     name: string;
-    price: number;
+    price: number|string;
     promotion?: string;
     quantity?: number;
     total:number;

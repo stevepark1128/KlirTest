@@ -23,8 +23,10 @@ export class OrderComponent implements AfterViewInit, OnInit {
 
   displayedProductColumns: string[] = ['id', 'name', 'price', 'promotion', 'add'];
   displayedOrderColumns: string[] = ['id', 'name', 'price', 'quantity'];
+  displayedCheckoutColumns: string[] = ['name', 'quantity' ,'price', 'total', 'promotion'];
   dataSource = new MatTableDataSource(this.products);
   dataSourceOrder = new MatTableDataSource(this.orders);
+  dataSourceCheckout = new MatTableDataSource(this.checkoutOrders);
   @ViewChild(MatSort) sort: MatSort;
   
   constructor(
@@ -59,6 +61,17 @@ export class OrderComponent implements AfterViewInit, OnInit {
     }
 
     this.dataSourceOrder.data = this.dataSourceOrder.data;
+  }
+
+  //Apply discount promotion and get the total 
+  onCheckout() {
+    this.orderService.checkoutOrder(this.orders).subscribe((x : any)=> {
+      this.checkoutOrders = x;
+      var total = 0;
+      this.checkoutOrders.forEach(x=> total += x.total);
+      this.checkoutOrders.push({name: '', price: 'Total', total: total, promotion: ''})
+      this.dataSourceCheckout = new MatTableDataSource(this.checkoutOrders);
+    });
   }
 
   //Clear shopping cart
