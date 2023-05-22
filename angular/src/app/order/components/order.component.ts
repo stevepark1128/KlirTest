@@ -19,7 +19,7 @@ export class OrderComponent implements AfterViewInit, OnInit {
   //Order list on shopping cart
   orders: Product[] = [];
   //Checkout Order list after discount applied 
-  checkoutOrders: Order[] = [];
+  checkoutOrders: any[] = [];
 
   displayedProductColumns: string[] = ['id', 'name', 'price', 'promotion', 'add'];
   displayedOrderColumns: string[] = ['id', 'name', 'price', 'quantity'];
@@ -69,7 +69,7 @@ export class OrderComponent implements AfterViewInit, OnInit {
       this.checkoutOrders = x;
       var total = 0;
       this.checkoutOrders.forEach(x=> total += x.total);
-      this.checkoutOrders.push({name: '', price: 'Total', total: total, promotion: ''})
+      this.checkoutOrders.push({name: 'Total', price: '', total: total, promotion: ''})
       this.dataSourceCheckout = new MatTableDataSource(this.checkoutOrders);
     });
   }
