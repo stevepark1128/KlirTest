@@ -20,10 +20,12 @@ export class OrderService {
   
   constructor(private httpClient: HttpClient) { }
 
+  // Get Product List from API call
   getProduct() {
     return this.httpClient.get<Product[]>(`http://localhost:5000/api/Product/ProductList`);
   }
 
+  // Get checkout order from API call
   checkoutOrder(products: Product[]) {
     return this.httpClient.post<Order[]>(`http://localhost:5000/api/Order/OrderCheckoutList`, products, this.httpOptions);
   }

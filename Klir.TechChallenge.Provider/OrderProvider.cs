@@ -13,10 +13,10 @@ namespace Klir.TechChallenge.Provider
         /// </summary>
         /// <param name="promotionId"></param>
         /// <returns>Promotion</returns>
-        public Task<Promotion> GetPromotionById(int promotionId)
+        public async Task<Promotion> GetPromotionById(int promotionId)
         {
             var promotions = SeedPromotion();
-            return Task.Run(() => promotions.Find(x => x.Id == promotionId));
+            return await Task.Run(() => promotions.Find(x => x.Id == promotionId));
         }
 
         /// <summary>

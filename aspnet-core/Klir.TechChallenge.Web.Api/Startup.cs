@@ -28,6 +28,7 @@ namespace KlirTechChallenge.Web.Api
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
+            // In order to resolve CORS issue
             services.AddCors(options =>
             {
                 options.AddDefaultPolicy(
@@ -35,11 +36,6 @@ namespace KlirTechChallenge.Web.Api
                         {
                             builder.AllowAnyOrigin().AllowAnyHeader();
                         });
-                //options.AddPolicy(name: AllowSpecificOrigins,
-                //                  builder =>
-                //                  {
-                //                      builder.WithOrigins("http://localhost:4200");
-                //                  });
             });
 
             services.AddControllers();
@@ -61,7 +57,7 @@ namespace KlirTechChallenge.Web.Api
 
             app.UseRouting();
 
-            //app.UseCors(AllowSpecificOrigins);
+            // In order to resolve CORS issue
             app.UseCors(
                options => options.AllowAnyOrigin().AllowAnyMethod().AllowAnyHeader()
                );

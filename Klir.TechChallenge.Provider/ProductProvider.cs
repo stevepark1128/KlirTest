@@ -12,7 +12,7 @@ namespace Klir.TechChallenge.Provider
         /// Get Product List
         /// </summary>
         /// <returns>Product List</returns>
-        public Task<List<Product>> GetProductList()
+        public async Task<List<Product>> GetProductList()
         {
             var products = new List<Product>();
 
@@ -20,7 +20,7 @@ namespace Klir.TechChallenge.Provider
             products.Add(new Product() { Id = 2, Name = "ProductB", Price = 4, PromotionId = 2, Promotion = "3 for 10 Euro" });
             products.Add(new Product() { Id = 3, Name = "ProductC", Price = 2, PromotionId = null });
             products.Add(new Product() { Id = 4, Name = "ProductD", Price = 4, PromotionId = 2 , Promotion = "3 for 10 Euro" });
-            return Task.Run(() => products);
+            return await Task.Run(() => products);
         }
     }
 }

@@ -21,6 +21,7 @@ export class OrderComponent implements AfterViewInit, OnInit {
   //Checkout Order list after discount applied 
   checkoutOrders: any[] = [];
 
+  //define display columns on each table
   displayedProductColumns: string[] = ['id', 'name', 'price', 'promotion', 'add'];
   displayedOrderColumns: string[] = ['id', 'name', 'price', 'quantity'];
   displayedCheckoutColumns: string[] = ['name', 'quantity' ,'price', 'total', 'promotion'];
@@ -49,10 +50,11 @@ export class OrderComponent implements AfterViewInit, OnInit {
 
   //Add to shopping cart
   onAdd(id: number) {   
+    // find existing order in shopping cart and if so just increment quantity
     let existOrder = this.orders.find(x=>x.id == id);
     if(existOrder && existOrder.quantity) {
       existOrder.quantity = existOrder.quantity + 1;
-    } else {
+    } else { //if not just add new order to shopping cart
       let newOrder = this.products.find(x=>x.id == id);
       if(newOrder) {
         newOrder.quantity = 1;
@@ -60,6 +62,7 @@ export class OrderComponent implements AfterViewInit, OnInit {
       }
     }
 
+    //This will refresh shopping cart table
     this.dataSourceOrder.data = this.dataSourceOrder.data;
   }
 
