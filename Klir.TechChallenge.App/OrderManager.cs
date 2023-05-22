@@ -10,10 +10,11 @@ namespace Klir.TechChallenge.App
     public class OrderManager : IOrderManager
     {
         private readonly IOrderProvider _orderProvider;
-
-        public OrderManager(IOrderProvider orderProvider)
+        private readonly IPromotionHandlerFactory _promotionHandlerFactory;
+        public OrderManager(IOrderProvider orderProvider, IPromotionHandlerFactory promotionHandlerFactory)
         {
             _orderProvider = orderProvider;
+            _promotionHandlerFactory = promotionHandlerFactory;
         }
 
         /// <summary>
@@ -28,53 +29,11 @@ namespace Klir.TechChallenge.App
             {
                 // Get order after promotino applied.
                 var promotion = product.PromotionId != null ? await _orderProvider.GetPromotionById(product.PromotionId.Value) : null;
-                orders.Add(ApplyPromotion(product, promotion));
+                var promotionHandler = this._promotionHandlerFactory.GetPromotionHandler(promotion);
+                orders.Add(promotionHandler.ApplyPromotion(product, promotion));
                 
             }
             return orders;
-        }
-
-        /// <summary>
-        /// Apply Promotion to order
-        /// </summary>
-        /// <param name="product"></param>
-        /// <param name="promotion"></param>
-        /// <returns></returns>
-        private Order ApplyPromotion(Product product, Promotion promotion)
-        {
-            if (promotion != null)
-            {
-                var remainder = product.Quantity.Value % promotion.Divider;
-                var denominator = product.Quantity.Value / promotion.Divider;
-
-                return new Order()
-                {
-                    ProductId = product.Id,
-                    Name = product.Name,
-                    PromotionId = promotion.Id,
-                    Quantity = product.Quantity.Value,
-                    Price = product.Price,
-                    Total = product.PromotionId == 1 ? 
-                    (decimal)(denominator * product.Price + remainder * product.Price) : 
-                    promotion.Amount * denominator + remainder * product.Price,
-                    Promotion = promotion.Name
-                };
-            }
-            else
-            {
-                return new Order()
-                {
-                    ProductId = product.Id,
-                    Name = product.Name,
-                    PromotionId = null,
-                    Quantity = product.Quantity.Value,
-                    Price = product.Price,
-                    Total = product.Price * product.Quantity.Value,
-                    Promotion = string.Empty
-                };
-
-            }
-            
         }
     }
 }

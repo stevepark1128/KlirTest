@@ -13,7 +13,7 @@ namespace Klir.TechChallenge.Tests.Managers
         private readonly IOrderManager _sut;
         public OrderManagerUnitTest()
         {
-            _sut = new OrderManager(new OrderProvider());
+            _sut = new OrderManager(new OrderProvider(), new PromotionHandlerFactory());
         }
 
         [Fact]
